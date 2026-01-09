@@ -1,0 +1,11 @@
+fixtures:
+  forge_modules:
+    stdlib:
+      repo: puppetlabs/stdlib
+      ref: 9.0.0
+  repositories:
+    aur_yay:
+      repo: https://github.com/tobixen/puppet-aur-yay.git
+      ref: main
+  symlinks:
+    immich: "#{source_dir}"

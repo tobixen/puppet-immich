@@ -1,0 +1,46 @@
+{
+  "name": "tobixen-immich",
+  "version": "0.1.0",
+  "author": "tobixen",
+  "summary": "Installs and manages Immich photo management server",
+  "license": "Apache-2.0",
+  "source": "https://github.com/tobixen/puppet-immich",
+  "project_page": "https://github.com/tobixen/puppet-immich",
+  "issues_url": "https://github.com/tobixen/puppet-immich/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 8.0.0 < 10.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "22.04",
+        "24.04"
+      ]
+    },
+    {
+      "operatingsystem": "Archlinux"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 7.0.0 < 9.0.0"
+    },
+    {
+      "name": "openvox",
+      "version_requirement": ">= 7.0.0 < 9.0.0"
+    }
+  ],
+  "tags": [
+    "immich",
+    "photos",
+    "photo-management",
+    "self-hosted",
+    "postgresql",
+    "machine-learning"
+  ]
+}
